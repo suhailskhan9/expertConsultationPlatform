@@ -44,7 +44,7 @@ function Home() {
               Find an Expert
             </button>
     <a
-      href="/register"
+      href="/login"
       className="border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white font-semibold px-6 py-3 rounded-full transition-transform transform hover:scale-105 duration-300"
     >
       Sign Up
