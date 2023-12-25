@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import Layout from './Layout.jsx'
 import './index.css'
 import { RouterProvider, createBrowserRouter, createRoutesFromElements,Route} from 'react-router-dom'
-import Home from './components/Home/Home.jsx'
+import Home from './pages/Home/Home.jsx'
 import ExpertLoginSignUp from './components/ExpertLoginSignUp/ExpertLoginSignUp.jsx'
 import UserLoginSignUp from './components/UserLoginSignUp/UserLoginSignUp.jsx'
 import UserProfile from './pages/User/UserProfile.jsx'
@@ -18,6 +18,7 @@ import PayementHistoryPage from './components/PaymentHistory/paymentHistory.jsx'
 import PaymentSuccess from "./components/Card/PaymentSuccess";
 import Contact from './pages/Contact/Contact.jsx'
 import About from './pages/About/About.jsx'
+
 
 
 const router = createBrowserRouter(
