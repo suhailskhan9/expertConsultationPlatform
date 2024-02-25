@@ -1,11 +1,10 @@
 import React from 'react'
 import {Link, NavLink} from 'react-router-dom'
-import { Analytics } from '@vercel/analytics/react';
+
 
 
 export default function Header() {
     return (
-<> <Analytics/>
         <header className="bg-blue-200 shadow sticky z-50 top-0">
             <nav className=" px-4 lg:px-6 py-2.5">
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
@@ -72,7 +71,6 @@ export default function Header() {
                 </div>
             </nav>
         </header>
-</>
     );
 }
 
